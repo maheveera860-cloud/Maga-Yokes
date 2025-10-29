@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0066cc;
+}
+
+h2 {
+  margin: 20px 0 10px;
+  color: #444;
+}
+
+/* Forms & Inputs */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004999;
+}
+
+/* Message */
+#message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border: 1px solid #00acc1;
+  color: #006064;
+  border-radius: 5px;
+}
+
+/* Search Results */
+#searchResults {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9fbe7;
+  border-left: 4px solid #cddc39;
+  border-radius: 5px;
+}
